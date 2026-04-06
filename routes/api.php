@@ -45,3 +45,4 @@ Route::middleware(['api.key'])->prefix('v1')->group(function () {
     Route::get('/tenant', [TenantController::class, 'show']);
     Route::get('/teams', [TeamController::class, 'index']);
 });
+// Demo mode: seed data available via php artisan db:seed
