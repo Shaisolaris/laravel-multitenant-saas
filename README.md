@@ -1,5 +1,21 @@
 # laravel-multitenant-saas
 
+## Quick Start
+
+```bash
+git clone https://github.com/Shaisolaris/laravel-multitenant-saas.git
+cd laravel-multitenant-saas
+cp .env.example .env
+composer install --no-interaction
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate --seed
+php artisan serve
+# Open http://localhost:8000
+# Login: admin@demo.com / demo123
+```
+
+
 ![CI](https://github.com/Shaisolaris/laravel-multitenant-saas/actions/workflows/ci.yml/badge.svg)
 
 Laravel 11 multi-tenant SaaS platform with tenant isolation, Stripe Cashier billing, role-based access control (Spatie), team management, API key authentication with scoped permissions, usage tracking with rate limiting, and member invitations. Four-tier plan system with configurable limits.
