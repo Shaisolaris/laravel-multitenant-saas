@@ -178,3 +178,15 @@ php artisan serve
 ## License
 
 MIT
+
+## Why This Over Other Laravel SaaS Starters?
+
+| Feature | This Boilerplate | Typical Laravel Starters |
+|---|---|---|
+| SQLite quick start | ✅ One command, zero config | ❌ Needs MySQL/PostgreSQL |
+| Multi-tenancy | ✅ Tenant isolation via Spatie | ⚠️ Often single-tenant |
+| Stripe Cashier billing | ✅ Subscriptions, trials, invoices | ❌ Not included |
+| Spatie permissions | ✅ Roles + permissions per tenant | ⚠️ Basic gates only |
+| Database seeder | ✅ Demo admin + 4 team members | ❌ Empty database |
+| Docker setup | ✅ docker-compose with PostgreSQL + Redis | ⚠️ Sometimes |
+| Migrations | ✅ 6 production migrations included | ⚠️ Users table only |
