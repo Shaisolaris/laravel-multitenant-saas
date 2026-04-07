@@ -1,5 +1,8 @@
 # laravel-multitenant-saas
 
+
+Laravel multi-tenant SaaS boilerplate with Stripe Cashier billing, Spatie role permissions, tenant-scoped data isolation, and SQLite quick start.
+
 ## Quick Start
 
 ```bash
